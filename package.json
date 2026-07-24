@@ -5,7 +5,7 @@
   "scripts": {
     "content": "quarto render && node scripts/sync-quarto.mjs",
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && opennextjs-cloudflare build --skipNextBuild && node scripts/prepare-sites.mjs",
     "start": "next start"
   },
   "dependencies": {
@@ -21,4 +21,3 @@
     "wrangler": "4.53.0"
   }
 }
-
