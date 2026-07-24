@@ -1,0 +1,22 @@
+name: 失效链接
+description: 报告打不开、跳转错误或内容已迁移的链接
+title: "[链接] "
+labels: ["失效链接"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 出现问题的页面
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: 失效链接
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 补充说明
+

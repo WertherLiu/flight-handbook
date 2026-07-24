@@ -1,0 +1,49 @@
+---
+title: "投稿与纠错"
+description: "一起让手册保持真实、及时和可维护。"
+date-modified: "2026-07-24"
+categories: [共同维护]
+---
+
+飞跃手册不是一次写完的说明书，而是一份由同学共同维护的校园公共资料。短短一段真实经验、一个更新日期或一条失效链接报告都很有价值。
+
+## 选择一种反馈方式
+
+::: {.chapter-grid}
+::: {.chapter-card}
+<p class="eyebrow">新增经验</p>
+
+### [内容投稿](https://github.com/WertherLiu/flight-handbook/issues/new?template=content.yml)
+
+分享入学、生活、课程、交流或发展经验。
+:::
+
+::: {.chapter-card}
+<p class="eyebrow">修正信息</p>
+
+### [事实纠错](https://github.com/WertherLiu/flight-handbook/issues/new?template=correction.yml)
+
+指出过时、不准确或容易误解的内容。
+:::
+
+::: {.chapter-card}
+<p class="eyebrow">维护资源</p>
+
+### [失效链接](https://github.com/WertherLiu/flight-handbook/issues/new?template=broken-link.yml)
+
+报告打不开、跳转错误或已经迁移的链接。
+:::
+:::
+
+## 投稿原则
+
+- 说明信息适用的时间、对象和场景。
+- 正式政策尽量附学校或相关机构的公开来源。
+- 不公开个人隐私、内部文件或未经授权的课程材料。
+- 将个人感受明确写成经验，不包装成普遍事实。
+- 编辑可能为了清晰、隐私和可维护性调整文字。
+
+## 编辑流程
+
+Issue 提交后，维护者会核对适用范围和来源，再将内容整理进对应 `.qmd` 页面。涉及高时效信息时，页面会标注核对日期，并在无法继续确认时移除。
+

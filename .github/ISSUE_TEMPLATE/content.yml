@@ -1,0 +1,27 @@
+name: 内容投稿
+description: 分享一段可加入飞跃手册的经验或资料
+title: "[投稿] "
+labels: ["内容投稿"]
+body:
+  - type: dropdown
+    id: chapter
+    attributes:
+      label: 对应章节
+      options: [入学准备, 校园生活, 深圳生活, 课程学习, 海外交流, 职业发展, 资源下载, 其他]
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: 投稿内容
+      description: 请尽量写清适用对象、时间范围和信息来源，避免公开个人隐私。
+    validations:
+      required: true
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: 授权确认
+      options:
+        - label: 我同意经济学会编辑并公开发布这段内容。
+          required: true
+

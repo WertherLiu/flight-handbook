@@ -1,0 +1,176 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+$headings-font-family: "Noto Serif SC", "Songti SC", "STSong", serif;
+$body-color: #183047;
+$link-color: #b35c24;
+$primary: #0b2a4a;
+$sidebar-bg: #f5f2ea;
+$navbar-bg: #0b2a4a;
+$navbar-fg: #fffdf7;
+$border-radius: 0.75rem;
+
+/*-- scss:rules --*/
+:root {
+  --handbook-navy: #0b2a4a;
+  --handbook-ink: #183047;
+  --handbook-paper: #fffdf7;
+  --handbook-sand: #f5f2ea;
+  --handbook-amber: #f3b562;
+  --handbook-rust: #b35c24;
+}
+
+body {
+  background: var(--handbook-paper);
+  line-height: 1.8;
+}
+
+h1, h2, h3 {
+  color: var(--handbook-navy);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+.sidebar-title {
+  color: var(--handbook-navy);
+  font-weight: 800;
+}
+
+.sidebar-logo {
+  max-width: 4rem;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 2rem;
+  padding: clamp(2rem, 6vw, 5rem);
+  border-radius: 1.5rem;
+  color: #fffdf7;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(243, 181, 98, .35), transparent 28%),
+    linear-gradient(135deg, #0b2a4a, #174c74);
+}
+
+.hero::after {
+  content: "跃";
+  position: absolute;
+  right: 4%;
+  bottom: -25%;
+  color: rgba(255,255,255,.08);
+  font: 900 clamp(9rem, 25vw, 18rem)/1 serif;
+}
+
+.hero h1, .hero h2, .hero a {
+  color: inherit;
+}
+
+.hero-kicker {
+  margin-bottom: .75rem;
+  color: var(--handbook-amber);
+  font-weight: 700;
+  letter-spacing: .18em;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-top: 1.5rem;
+}
+
+.hero-actions a {
+  display: inline-block;
+  padding: .65rem 1rem;
+  border: 1px solid rgba(255,255,255,.4);
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.hero-actions a:first-child {
+  border-color: var(--handbook-amber);
+  color: var(--handbook-navy);
+  background: var(--handbook-amber);
+}
+
+.chapter-grid,
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.chapter-card,
+.resource-card {
+  padding: 1.25rem;
+  border: 1px solid #d9d5ca;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 8px 30px rgba(11,42,74,.06);
+}
+
+.chapter-card h3,
+.resource-card h3 {
+  margin-top: 0;
+}
+
+.chapter-card a,
+.resource-card a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.eyebrow {
+  color: var(--handbook-rust);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.status {
+  display: inline-block;
+  padding: .15rem .55rem;
+  border-radius: 999px;
+  color: #5e4316;
+  background: #f9e6bd;
+  font-size: .78rem;
+  font-weight: 700;
+}
+
+.reading-progress {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  pointer-events: none;
+}
+
+.reading-progress span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--handbook-amber);
+}
+
+.callout {
+  border-radius: .85rem;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding: 2rem 1.4rem;
+    border-radius: 1rem;
+  }
+  .chapter-grid,
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

@@ -1,0 +1,23 @@
+name: 事实纠错
+description: 指出过时、不准确或容易误解的内容
+title: "[纠错] "
+labels: ["事实纠错"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 页面链接或章节
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题说明
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 建议修改及依据
+      description: 如有官方通知或权威链接，请一并提供。
+

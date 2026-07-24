@@ -1,0 +1,14 @@
+<div class="reading-progress" aria-hidden="true"><span></span></div>
+<script>
+  (() => {
+    const bar = document.querySelector(".reading-progress span");
+    const update = () => {
+      const height = document.documentElement.scrollHeight - innerHeight;
+      bar.style.width = `${height > 0 ? (scrollY / height) * 100 : 0}%`;
+    };
+    addEventListener("scroll", update, { passive: true });
+    addEventListener("resize", update);
+    update();
+  })();
+</script>
+

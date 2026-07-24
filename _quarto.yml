@@ -1,0 +1,82 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: zh
+
+website:
+  title: "汇丰商学院飞跃手册"
+  description: "由经济学会整理的非官方学生指南：入学、生活、课程、交流与发展。"
+  favicon: assets/mark.svg
+  search:
+    location: sidebar
+    type: overlay
+    copy-button: true
+  page-navigation: true
+  back-to-top-navigation: true
+  bread-crumbs: true
+  sidebar:
+    style: docked
+    logo: assets/mark.svg
+    title: "飞跃手册"
+    tools:
+      - icon: github
+        href: https://github.com/WertherLiu/flight-handbook
+        text: GitHub
+    contents:
+      - href: index.qmd
+        text: 首页导读
+      - section: "启程"
+        contents:
+          - href: getting-started.qmd
+            text: 入学准备
+          - href: campus-life.qmd
+            text: 校园生活
+      - section: "在深圳"
+        contents:
+          - href: shenzhen.qmd
+            text: 深圳游玩
+          - href: around-shenzhen.qmd
+            text: 深圳周边
+      - section: "学习与发展"
+        contents:
+          - href: courses.qmd
+            text: 课程学习
+          - href: exchange.qmd
+            text: 海外交流
+          - href: career.qmd
+            text: 职业发展
+      - section: "共同维护"
+        contents:
+          - href: resources.qmd
+            text: 资源下载
+          - href: contribute.qmd
+            text: 投稿与纠错
+  page-footer:
+    left: "由经济学会整理 · 非官方资料"
+    center: "信息会变化，请以学校及相关机构最新通知为准"
+    right:
+      - text: "投稿与纠错"
+        href: contribute.qmd
+      - icon: github
+        href: https://github.com/WertherLiu/flight-handbook
+        aria-label: GitHub
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-copy: true
+    anchor-sections: true
+    include-after-body: assets/progress.html
+
+execute:
+  freeze: auto
+

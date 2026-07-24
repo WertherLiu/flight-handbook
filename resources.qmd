@@ -1,0 +1,45 @@
+---
+title: "资源下载"
+description: "现有公开资料和外部资源的轻量索引。"
+date-modified: "2026-07-24"
+categories: [资源]
+---
+
+资源的版权、版本和适用范围可能不同。下载或使用前，请阅读页面说明并自行核对。
+
+::: {.resource-grid}
+::: {.resource-card}
+<p class="eyebrow">DOCX · 课程经验</p>
+
+### [体适能课程分享](https://assets.pkuecons.org/doc/downloads/%E4%BD%93%E9%80%82%E8%83%BD%E8%AF%BE%E7%A8%8B%E5%88%86%E4%BA%AB.docx)
+
+体适能课程经验文档。
+:::
+
+::: {.resource-card}
+<p class="eyebrow">PDF · 备考</p>
+
+### [数学入学考试备考单词表](https://assets.pkuecons.org/doc/downloads/%E6%95%B0%E5%AD%A6%E5%85%A5%E5%AD%A6%E8%80%83%E8%AF%95%E5%A4%87%E8%80%83%E5%8D%95%E8%AF%8D%E8%A1%A8.pdf)
+
+数学入学考试常用英文词汇整理。
+:::
+
+::: {.resource-card}
+<p class="eyebrow">PNG · 学会素材</p>
+
+### [经济学会会旗](https://assets.pkuecons.org/doc/downloads/%E4%BC%9A%E6%97%97.png)
+
+经济学会对外使用的会旗图片。
+:::
+
+::: {.resource-card}
+<p class="eyebrow">PPTX · 学会素材</p>
+
+### [经济学会演示模板](https://assets.pkuecons.org/doc/downloads/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BC%9A%E6%A8%A1%E6%9D%BF.pptx)
+
+经济学会演示文稿模板。
+:::
+:::
+
+发现下载失效时，请提交[失效链接报告](https://github.com/WertherLiu/flight-handbook/issues/new?template=broken-link.yml)。
+

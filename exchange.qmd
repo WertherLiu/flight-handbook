@@ -1,0 +1,41 @@
+---
+title: "海外交流"
+description: "交换与联合培养项目的经验入口和行前核对框架。"
+date-modified: "2026-07-24"
+categories: [交流, 发展]
+---
+
+交流项目涉及申请条件、学分认定、签证、住宿和预算，规则变化较快。本站经验只能帮助理解流程，不能替代项目与学校的正式说明。
+
+## 现有入口
+
+::: {.resource-grid}
+::: {.resource-card}
+<p class="eyebrow">经验汇总</p>
+
+### [交换项目分享](https://pan.quark.cn/s/6511969cf9bd)
+
+校友交换项目经验的外部资料入口。访问前请自行判断资料时间与适用范围。
+:::
+
+::: {.resource-card}
+<p class="eyebrow">联合培养</p>
+
+### [PKU–NUS 指北](https://pkuecons.org/NUS.html)
+
+NUS 双学位项目的非官方经验整理。
+:::
+:::
+
+## 行前核对
+
+- 当年项目通知、申请资格和材料截止日期
+- 学分认定、课程匹配和毕业进度影响
+- 签证、保险、住宿与当地法律要求
+- 学费、生活费、交通和应急预算
+- 重要材料的电子与纸质备份
+
+::: {.callout-note title="正在建立项目目录"}
+欢迎提交近期项目经验，尤其是申请年份、项目名称、关键时间线和发生变化的规则。[分享交流经验](https://github.com/WertherLiu/flight-handbook/issues/new?template=content.yml)
+:::
+

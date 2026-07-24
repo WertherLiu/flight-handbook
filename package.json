@@ -1,0 +1,24 @@
+{
+  "name": "flight-handbook",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "content": "quarto render && node scripts/sync-quarto.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.5.9",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "1.14.8",
+    "@types/node": "22.15.30",
+    "@types/react": "19.1.6",
+    "typescript": "5.8.3",
+    "wrangler": "4.53.0"
+  }
+}
+

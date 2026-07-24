@@ -1,0 +1,10 @@
+/.quarto/
+/_site/
+/node_modules/
+/.next/
+/.open-next/
+/.vinext/
+*.log
+
+
+**/*.quarto_ipynb

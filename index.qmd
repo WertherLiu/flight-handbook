@@ -1,0 +1,87 @@
+---
+title: "汇丰商学院飞跃手册"
+description: "从报到第一天到更远的下一站，一本由同学共同维护的非官方指南。"
+date-modified: "2026-07-24"
+image: assets/mark.svg
+toc: false
+page-layout: full
+---
+
+::: {.hero}
+<p class="hero-kicker">PHBS STUDENT HANDBOOK</p>
+
+# 从这里，飞向下一站
+
+入学、生活、课程、交流与发展——把散落的经验整理成一条更容易出发的路。
+
+<div class="hero-actions">
+<a href="getting-started.html">开始阅读</a>
+<a href="contribute.html">一起完善手册</a>
+</div>
+:::
+
+::: {.callout-note title="关于这本手册"}
+本站由经济学会整理，是面向同学的**非官方资料**。政策、课程、场馆和交通信息都可能调整；涉及正式安排时，请以学校、学院及相关机构的最新通知为准。
+:::
+
+## 按你现在最需要的内容开始
+
+::: {.chapter-grid}
+::: {.chapter-card}
+<p class="eyebrow">01 · 启程</p>
+
+### [入学准备](getting-started.html)
+
+报到、军训和刚到深圳时需要优先确认的事项。
+:::
+
+::: {.chapter-card}
+<p class="eyebrow">02 · 日常</p>
+
+### [校园生活](campus-life.html)
+
+交通、吃饭、采购、运动与常用服务的维护入口。
+:::
+
+::: {.chapter-card}
+<p class="eyebrow">03 · 城市</p>
+
+### [深圳生活](shenzhen.html)
+
+从大学城出发，安排城市、山海与周末路线。
+:::
+
+::: {.chapter-card}
+<p class="eyebrow">04 · 学习</p>
+
+### [课程学习](courses.html)
+
+按培养方向整理课程经验、教材与学习资料。
+:::
+
+::: {.chapter-card}
+<p class="eyebrow">05 · 更远</p>
+
+### [海外交流](exchange.html)
+
+交换和联合培养项目的经验入口与行前提醒。
+:::
+
+::: {.chapter-card}
+<p class="eyebrow">06 · 下一站</p>
+
+### [职业发展](career.html)
+
+实习、求职与学术发展的内容框架。
+:::
+:::
+
+## 使用方式
+
+- 第一次来：从[入学准备](getting-started.html)开始，再收藏[校园生活](campus-life.html)。
+- 想安排周末：直接查看[深圳游玩](shenzhen.html)和[深圳周边](around-shenzhen.html)。
+- 找课程资料：进入[课程学习](courses.html)，按培养方向查找。
+- 发现过时信息：通过[投稿与纠错](contribute.html)告诉我们。
+
+本手册会持续更新。首版优先建立可靠、可维护的目录；没有同学经验支撑的部分不会凭空补写。
+
